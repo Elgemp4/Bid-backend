@@ -15,8 +15,11 @@
             </div>
         </header>
         <div class="grid grid-cols-[15rem_auto] min-h-full flex-1">
-            <nav class="bg-bg-light flex flex-col py-4 px-4">
+            <nav class="bg-bg-light flex flex-col py-4 px-4 gap-4">
                 <a class="button button-neutral block text-center" href="{{route("kpi")}}">KPI</a>
+                <a class="button button-neutral block text-center" href="{{route("top")}}">Top 5 Products</a>
+                <a class="button button-neutral block text-center" href="{{route("no-bid")}}">Not bidded products</a>
+                <a class="button button-neutral block text-center" href="{{route("graph")}}">Category Income Graph</a>
             </nav>
             <main>
                 <div class="p-8">
@@ -24,7 +27,6 @@
                     <hr class="border-t border-border my-4"/>
                     @yield("contents")
                 </div>
-
             </main>
         </div>
     </div>

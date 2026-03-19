@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\KPIController;
+use App\Http\Controllers\NoBidController;
+use App\Http\Controllers\TopController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(["auth"])->group(function () {
@@ -11,6 +13,18 @@ Route::middleware(["auth"])->group(function () {
 
     Route::controller(KPIController::class)->group(function () {
         Route::get('/kpi', 'index')->name('kpi');
+    });
+
+    Route::controller(TopController::class)->group(function () {
+        Route::get('/top', 'index')->name('top');
+    });
+
+    Route::controller(NoBidController::class)->group(function () {
+        Route::get('/no-bid', 'index')->name('no-bid');
+    });
+
+    Route::controller(\App\Http\Controllers\GraphController::class)->group(function () {
+        Route::get('/graph', 'index')->name('graph');
     });
 });
 

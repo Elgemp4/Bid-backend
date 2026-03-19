@@ -2,7 +2,6 @@
 
 @section("title", "Company's KPI")
 
-
 @section("contents")
     <div class="flex flex-wrap gap-4">
         <x-k-p-i :success="$bidCount > 600" title="Bid Count" :value="$bidCount . ' bids'"/>

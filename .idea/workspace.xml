@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f58ba3c8-12a6-451a-bb9a-ca1d91cd75e3" name="Changes" comment="" />
+    <list default="true" id="f58ba3c8-12a6-451a-bb9a-ca1d91cd75e3" name="Changes" comment="Add : KPI">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GraphController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NoBidController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TopController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/60scar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/70scar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/airforce-jacket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/american-school-bus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/appleimac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/baseball-cap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bob-ross-painting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carplayrug.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/casio-calculator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cat-sculpture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cuckoo-clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/delftblue-vase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/diamond-necklace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dutch-soccer-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/extra-long-couch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flatscreentv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gameboy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gamingconsole.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/golden-rolex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/honda-motorcycle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/jade-earrings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/racecarbed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sketch-mondriaan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sony-walkman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/space-lamp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stereosystem.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/timeless-blue-watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/vintage-sneakers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/vintage-watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/vintage-yellow-chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/graph.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/nobid.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/top.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kpi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kpi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/templates/dash.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates/dash.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/e30795563cc4194fa609685573085d44.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e30795563cc4194fa609685573085d44.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/e4cc86059cccf68e797df352caaa86d0.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e4cc86059cccf68e797df352caaa86d0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,13 +184,15 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/elgem/Documents/Worldskills/Laravel/Bid",
+    "last_opened_file_path": "/home/elgem/Documents/Worldskills/Laravel/Bid/resources/views",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/views/templates" />
       <recent name="$PROJECT_DIR$/resources/views/auth" />
     </key>
@@ -176,11 +222,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773925031125</updated>
-      <workItem from="1773925032436" duration="6836000" />
+      <workItem from="1773925032436" duration="8221000" />
     </task>
+    <task id="LOCAL-00001" summary="Add : KPI">
+      <option name="closed" value="true" />
+      <created>1773931887458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773931887458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add : KPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : KPI" />
   </component>
 </project>
