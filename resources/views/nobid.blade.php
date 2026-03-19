@@ -3,9 +3,8 @@
 @section("title", "Not bidded products")
 
 @section("contents")
-    <div class="flex flex-col p-2 items-center">
-
-        @foreach($nobid as $top)
+    <div class="flex flex-wrap gap-6 p-2 items-center justify-center">
+    @foreach($nobid as $top)
             @php
                 $image = "images/".$top->image.".jpg"
             @endphp

@@ -41,13 +41,13 @@ class KPIController extends Controller
         $total = Product::all()->count();
         $hasOneBid = Product::has("bids")->get()->count();
 
-        return $hasOneBid/$total *100;
+        return round($hasOneBid/$total *100, 2);
     }
 
     private function getProfitPercentage() {
         $total = $this->getTotalIncome();
         $totalMin = Product::has("bids")->sum("minimal_price");
 
-        return $total / $totalMin * 100;
+        return round($total / $totalMin * 100, 2);
     }
 }

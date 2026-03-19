@@ -9,9 +9,9 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --hue: 250;
-    --chroma: 0.05;
-    --accent: 0.15;
+    --hue: 240;
+    --chroma: 0.04;
+    --accent: 0.1;
 
     --color-bg-dark: oklch(10% var(--chroma) var(--hue));
     --color-bg: oklch(15% var(--chroma) var(--hue));
@@ -35,5 +35,5 @@
 }
 
 .button-neutral{
-    @apply bg-border text-muted
+    @apply bg-border text-text
 }

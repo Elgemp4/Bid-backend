@@ -1,7 +1,7 @@
 <?php $__env->startSection("title", "Company's KPI"); ?>
 
 <?php $__env->startSection("contents"); ?>
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-wrap gap-4 justify-center mt-8">
         <?php if (isset($component)) { $__componentOriginalbb7d74c55e41de39bdc4e4090d82958c = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalbb7d74c55e41de39bdc4e4090d82958c = $attributes; } ?>
 <?php $component = App\View\Components\KPI::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
