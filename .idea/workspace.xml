@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f58ba3c8-12a6-451a-bb9a-ca1d91cd75e3" name="Changes" comment="Add : top 5 and no bidded">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GraphController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GraphController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/KPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/KPIController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/graph.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/graph.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/kpi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kpi.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/nobid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nobid.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/top.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/e30795563cc4194fa609685573085d44.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e30795563cc4194fa609685573085d44.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    <list default="true" id="f58ba3c8-12a6-451a-bb9a-ca1d91cd75e3" name="Changes" comment="Add : end">
+      <change afterPath="$PROJECT_DIR$/dump.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Elgemp4"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Elgemp4/Bid-backend.git",
+    "accountId": "5691db19-1b91-42da-bbdc-5f32d998c17f"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
@@ -144,20 +148,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/elgem/Documents/Worldskills/Laravel/Bid/resources/views&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/elgem/Documents/Worldskills/Laravel/Bid",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/views/templates" />
@@ -189,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773925031125</updated>
-      <workItem from="1773925032436" duration="10794000" />
+      <workItem from="1773925032436" duration="10919000" />
     </task>
     <task id="LOCAL-00001" summary="Add : KPI">
       <option name="closed" value="true" />
@@ -207,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773933285132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add : end">
+      <option name="closed" value="true" />
+      <created>1773935985387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773935985387</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add : KPI" />
     <MESSAGE value="Add : top 5 and no bidded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add : top 5 and no bidded" />
+    <MESSAGE value="Add : end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : end" />
   </component>
 </project>
