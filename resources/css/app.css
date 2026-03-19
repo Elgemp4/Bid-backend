@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --hue: 250;
+    --chroma: 0.05;
+    --accent: 0.15;
+
+    --color-bg-dark: oklch(10% var(--chroma) var(--hue));
+    --color-bg: oklch(15% var(--chroma) var(--hue));
+    --color-bg-light: oklch(20% var(--chroma) var(--hue));
+    --color-border: oklch(30% var(--chroma) var(--hue));
+
+    --color-text: oklch(95% var(--chroma) var(--hue));
+    --color-muted: oklch(70% var(--chroma) var(--hue));
+
+    --color-primary: oklch(70% var(--accent) var(--hue));
+    --color-secondary: oklch(70% var(--accent) calc(var(--hue) + 120));
+}
+
+
+.button {
+    @apply rounded-sm px-6 py-2 cursor-pointer
+}
+
+.button-primary{
+    @apply bg-primary text-border
+}
+
+.button-neutral{
+    @apply bg-border text-muted
+}
